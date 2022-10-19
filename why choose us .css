@@ -1,0 +1,44 @@
+
+    .BOXES{
+        border:2px solid white;
+        
+        border-width:3px;
+        margin:5px;
+        width: 700px;
+        padding:center;
+        border-radius:30px ;
+         
+       
+    }
+        
+        .center
+        {
+            display: grid;
+            place-items:center;
+
+        }
+        #fresh{
+        background-color: white;
+            
+
+            
+        }
+        #offer{
+            background-color:white; 
+            
+        }
+        #food{
+            background-color:white;
+            
+            
+        }
+        body{
+            background-image:url("background.jpg");
+            
+            background-size: cover;
+        }
+        #heading{
+            font-size: 50px;
+            
+        }
+  

@@ -1,0 +1,107 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+   
+  
+ 
+
+}
+
+#menu-name{
+    text-align: center;
+    color: aliceblue;
+}
+.lists{
+    border: 2px;
+    border-radius: 5px;
+    
+    padding: 20px;
+    position: relative;
+   
+    
+}
+
+
+
+
+.row-list-1{
+    display: flex;
+    border: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    place-content: space-around;
+    width: 100%;
+    align-content: center;
+    text-decoration: none;
+
+
+}
+.row-list-2{
+    display: flex;
+    border: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    place-content: space-around;
+    width: 100%;
+    align-content: center;
+    text-decoration: none;
+    
+}
+.card{
+    background-color: rgba(249, 126, 3, 0.918);
+    border: 5px;
+    border-color: blueviolet;
+    border-radius: 10px;
+    padding: 15px;
+    width: 15%;
+    height: 250px;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.card-photo{
+    border: 2px;
+    border-color: black;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.body{
+    background-image: linear-gradient(rgba(18,20,29,0.7),rgba(18,20,29,0.7)),url(background.gif);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  
+}
+
+.view-btn{
+   position: relative;
+   bottom: 2%;
+   width: 15;
+   color: aliceblue;
+   text-decoration: none;
+  
+   
+}
+.view-btn:visited{
+    color: rgb(26, 234, 68);
+    text-decoration: none;
+    
+
+}
+.view-btn:hover{
+    color: brown;
+    text-decoration: none;
+}
+.view-btn:active{
+    text-decoration: none;
+}
+
+
+
